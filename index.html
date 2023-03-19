@@ -1,18 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="icon" href="imgs/logo.ico">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="imgs/logo.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="https://kit.fontawesome.com/63598782db.js" crossorigin="anonymous"></script>
     <script defer src="script.js"></script>
     <title>Recipe App</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- main container for the webpage -->
+    <div class="mobile-container">
+      <!--header div with the search bar and the search button  -->
+      <div class="header">
+        <input type="text" id="search" /><label for="search">
+        <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </label>
+      </div>
 
-    
+      <!-- favorite meal list container  -->
+      <div class="fav-meal-container">
+        <h3>Favorite Recipe</h3>
+        <!-- meals list -->
+       <div class="fav-meal-list-container">
+        <ul class="fav-meal-list-ul" style="list-style: none;">
+            <li class="fav-meal-list">
+              <img src="https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg" alt="" class="fav-meal-img" /><span>Meat Casserole</span>
+            </li>
+            <li class="fav-meal-list">
+              <img src="https://www.themealdb.com/images/media/meals/xxyupu1468262513.jpg" alt="" class="fav-meal-img" /><span>Fish</span>
+            </li>
+            <li class="fav-meal-list">
+              <img src="https://www.themealdb.com/images/media/meals/uuuspp1468263334.jpg" alt="" class="fav-meal-img" /><span>Pasta</span>
+            </li>
+          </ul>
+       </div>
+    </div>
+        <!-- Random meal container -->
+        <div class="meal-container">
 
-</body>
+        <!--Random meal tag  -->
+            <div class="meal-tag">Random Recipe</div>
+
+        <!--Random meal container  -->
+            <div class="random-meal-container">
+                <div class="meal-img"><img src="https://www.themealdb.com/images/media/meals/wurrux1468416624.jpg" alt=""></div>
+                <div class="meal-body">Savoury Tart<button id='fav-btn'><i class="fa-solid fa-heart fa-bounce"></i></button></div>
+            </div>
+        </div>
+    </div>
+  </body>
 </html>
