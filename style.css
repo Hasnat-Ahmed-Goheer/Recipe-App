@@ -1,6 +1,160 @@
 /* font import */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
 
+/* basic html */
 html{
     font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+/* img tag for the size of the images */
+/* img{
+    max-width: 100%;
+} */
+/* main mobile container */
+.mobile-container{
+    position: absolute;
+    left:  37%;
+    top:15%;
+    width: 23%;
+    height: 70vh;
+    padding-bottom: 20px;
+
+    /* for the gradient background`` */
+    background: rgb(58,172,180); 
+    background: linear-gradient(180deg, rgba(58,172,180,0.9761904761904762) 0%, rgba(29,50,253,0.9841269841269842) 50%, rgba(133,69,252,0.9682539682539683) 100%);   
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+}
+
+/* ///////////////////////////////////////// */
+/* header container */
+.header{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 22%;
+    margin-top: 8px;
+}
+
+/* input field */
+input{
+    border: none;
+    border-radius: 2rem;
+    color: #4b4343dc;
+    background-color: #eeeeeeb4;
+    padding: 0px 25px;
+}
+
+/* text area focus to remove the outline */
+textarea:focus, input:focus{
+    outline: none;
+}
+
+/* search button for the header */
+button{
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    font-size: 17px;
+    padding-top: 7px;
+    margin-left: 5px;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* search button hover property */
+#search-btn:hover{
+    color:#eeeeeeb4;
+    transform: translate(-2px,-3px);
+}
+
+
+/* //////////////////////////////////////// */
+/* favorite meal list container  */
+/* fav-meal-container */
+.fav-meal-container{
+text-align: center;
+}
+
+/* list of the fav container */
+.fav-meal-list-ul{
+    display:flex;
+    overflow: auto;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    /* padding:0% 3%; */
+    /* background-color: #000000; */
+    /* border: 2px solid salmon; */
+}
+/* scrollbar  */
+.fav-meal-list-ul::-webkit-scrollbar{
+    width: 1em;
+}
+
+.fav-meal-list-ul::-webkit-scrollbar-thumb{
+background-color: #0000008e;
+border-radius: 2rem;
+outline: transparent;
+}
+
+/* fav meal list class for every list item */
+.fav-meal-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding:0% 3%;
+    /* border: 2px solid salmon; */   
+}
+/* favorite meal image */
+.fav-meal-img{
+    max-width: 90%;
+    border-radius: 50%;
+    object-fit: cover ;
+}
+
+/* ////////////////////////// */
+
+/* Random meal container */
+/* .random-meal-container{
+    background-color: rgba(255, 255, 255, 0.952); 
+} */
+
+/* meal tag for the container */
+.meal-tag{
+    position: absolute;
+    top: 240px;
+    background-color: white;
+    padding: 10px;
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    font-weight: 700;
+}
+
+/* random meal image */
+.meal-img{
+    object-fit: cover;
+    max-width: 100%;
+}
+/* meal body */
+.meal-body{
+    position: relative;
+    top: -60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+/* heart button  */
+#fav-btn:hover{
+    color:#ff1010b4;
+    transform: translate(-2px,-3px);
 }
