@@ -1,9 +1,14 @@
 # Recipe App 🍽️
 
+![GitHub repo size](https://img.shields.io/github/repo-size/Hasnat-Ahmed-Goheer/Recipe-App)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Hasnat-Ahmed-Goheer/Recipe-App?color=blue)
+![GitHub stars](https://img.shields.io/github/stars/Hasnat-Ahmed-Goheer/Recipe-App)
+![GitHub forks](https://img.shields.io/github/forks/Hasnat-Ahmed-Goheer/Recipe-App)
+![GitHub issues](https://img.shields.io/github/issues/Hasnat-Ahmed-Goheer/Recipe-App)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Hasnat-Ahmed-Goheer/Recipe-App)
+
+
 ![Last Updated](https://img.shields.io/github/last-commit/Hasnat-Ahmed-Goheer/Recipe-App?label=Last%20Updated&color=yellow)
-
-
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Introduction
