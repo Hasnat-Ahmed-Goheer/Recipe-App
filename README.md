@@ -1,6 +1,10 @@
 # Recipe App 🍽️
 
+![GitHub last commit](https://img.shields.io/github/last-commit/Hasnat-Ahmed-Goheer/Recipe-App?color=blue)
+![Last Updated](https://img.shields.io/github/last-commit/Hasnat-Ahmed-Goheer/Recipe-App?label=Last%20Updated&color=yellow)
 
+
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Introduction
 
